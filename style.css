@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: #555;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1200px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.5);
+}
+.container .left_container
+{
+    position: relative;
+    background: rgb(250, 184, 40);
+    padding: 50px;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(225, 225, 225, 0.5);
+}
+.profileText .imgBox
+{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBox img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header__title1
+{
+    color: rgb(45, 45, 45);
+    font-size: 2em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1.4em;
+}
+.header__title2
+{
+    color: rgb(65, 65, 65);
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.Contacts
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: rgb(45, 45, 45);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.Contacts ul
+{
+    position: relative;
+}
+.Contacts ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Contacts ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+}
+.Skills
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: rgb(45, 45, 45);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+.Skills ul
+{
+    position: relative;
+}
+.Skills ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Skills ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+}
+.text
+{
+    color: rgb(65, 65, 65);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.Languages
+{
+    padding-top: 40px;
+}
+.title
+{
+    color: rgb(45, 45, 45);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+.Languages ul
+{
+    position: relative;
+}
+.Languages ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Languages ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+}
+.container .right_container
+{
+    position: relative;
+    background: #fff
+    padding: 50px;
+}
