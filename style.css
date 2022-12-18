@@ -130,11 +130,12 @@ body{
     font-size: 18px;
     color: rgb(65, 65, 65);
 }
-.text
+.side_links  
 {
     color: rgb(65, 65, 65);
     font-size: 1.2em;
     font-weight: 600;
+    text-decoration: none;
 }
 .Languages
 {
